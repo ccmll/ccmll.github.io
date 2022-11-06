@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.box1{
+    text-align: center;
+}
+.box1 img{
+    width: 1000px;
+    height: 400px;
+}
+.jpg:hover{
+    /* box-shadow: 0 8px 8px 0 grey;
+    transform: translate(0.-10px); */
+    transform: scale(1.1);
+}
+nav{ 
+    display: flex;
+    flex-wrap: nowrap;
+}
+nav ul{ 
+    margin: 0 auto;    
+    display: flex;
+    flex-wrap: nowrap;
+    text-indent: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 26px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li a:link{
+    color: black;
+}
+nav ul li a:visited{
+    color: black;
+}
+nav ul li a:hover{
+    color: cornflowerblue;
+}
+section{
+    margin: 0 auto;
+    width: 1050px; 
+}
+section h2{
+    color: brown;
+    margin-top: 20px;
+}
+.one{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.one li,.two li{
+    width: 250px;
+    height: 280px;
+    background-color: rgb(127, 217, 255);
+    list-style: none;
+    margin-right: 20px;
+}
+.jpg{
+    width: 250px;
+    height: 250px;
+}
+li span{
+    color: white;
+}
+.two{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+footer{
+    margin-top: 40px;
+    height: 30px;
+    background-color: rgb(155, 249, 218);
+}
+footer p{
+    text-align: center;
+    line-height: 30px;
+}
